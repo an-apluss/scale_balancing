@@ -6,18 +6,22 @@
 </head>
 <body>
   <div class="align-center hidden" id="message"></div>
-	<div id="form" class="align-center">
-		<p>
+  <div id="form" class="align-center">
+    <ul>
+      <li>SCALE field should take 2 weight in this format [L,R] e.g [2,5]</li>
+      <li>WEIGHTS field should take list of weights to balance the scale in this format[W1,W2,W3,W4,...] e.g [1, 2, 14, 3, 6]</li>                   
+      <li>Click Compute button to check if scale can be balance</li>
+    </ul>
+    <p>
       <input class="input-style space-bottom" type="text" id="scale" placeholder="SCALE" required>
     </p>
-		<p>
+    <p>
       <input class="input-style space-bottom" tyepe="text" id="weights" placeholder="WEIGHTS" required>
     </p>
-		<p>
+    <p>
       <input class="button-style" type="button" id="compute" value="Compute">
     </p>
-	</div>
-
+  </div>
 </body>
 <script type="text/javascript" src="js/scripts.js"></script>
 </html>

@@ -1,77 +1,80 @@
 body {
-  background-color: #f1f1f1;
-}
-
-#form {
-  width: 400px;
-  height: 220px;
-  background-color: #ffffff;
-  margin: 0 auto;
-  box-shadow: 1px 1px 1px 2px #e8e8e8;
-  border-radius: 5px;
-  padding: 30px;
-}
-
+    background-color: #f1f1f1;
+  }
+  #form {
+    width: 400px;
+    height: 275px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px 2px #e8e8e8;
+    border-radius: 5px;
+    padding: 30px;
+  }
 .space-bottom {
   margin-bottom: 15px;
 }
-
-.align-center {
-  text-align: center;
-}
-
-.input-style {
+  .align-center {
+    text-align: center;
+  }
+ul {
   width: 80%;
-  color: #a2a2a2;
-  border-radius: 5px;
-  font-size: 18px;
-  height: 20px;
-  border: 1px solid #f3eded;
-  padding: 10px;
-  background-color: #f9f9f9;
-  letter-spacing: .2em;
 }
+ul li {
+  font-size: 10px;
+  color: #901002;
+  text-align: justify;
+  letter-spacing: .08em
+}
+  .input-style {
+    width: 80%;
+    color: #a2a2a2;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 20px;
+    border: 1px solid #f3eded;
+    padding: 10px;
+    background-color: #f9f9f9;
+    letter-spacing: .2em;
+  }
+  #message {
+    margin: 0 auto 10px;
+    width: 400px;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+  .button-style {
+    width: 50%;
+    padding: 5px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #ffb329;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px 2px #f7e3c2;
+    border: none;
+    font-size: 15px;
+    letter-spacing: .2em;
+  }
 
-#message {
-  margin: 0 auto 10px;
-  width: 400px;
-  height: 25px;
-  line-height: 25px;
-  padding: 10px 30px;
-  font-size: 18px;
-}
+  .button-style:hover {
+    cursor: pointer;
+    background-color: #ffa603;
+    transition: background-color .9s;
+  }
 
-.button-style {
-  width: 50%;
-  padding: 5px;
-  height: 34px;
-  border-radius: 5px;
-  background-color: #ffb329;
-  color: #ffffff;
-  box-shadow: 1px 1px 1px 2px #f7e3c2;
-  border: none;
-  font-size: 15px;
-  letter-spacing: .2em;
-}
+  .success {
+    background-color: #95ef8e;
+    border: 1px solid #0c9002;
+    color: #0c9002;
+  }
 
-.button-style:hover {
-  cursor: pointer;
-  background-color: #ffa603;
-  transition: background-color .9s;
-}
+  .fail {
+    background-color: #ef8e8e;
+    border: 1px solid #900202;
+    color: #901002;
+  }
 
-.success {
-  background-color: #95ef8e;
-  border: 1px solid #0c9002;
-  color: #0c9002;
-}
-
-.fail {
-  background-color: #ef8e8e;
-  border: 1px solid #900202;
-  color: #901002
-}
-
-.hidden {
-  visibility: hidden;
-}
+  .hidden {
+    visibility: hidden;
+  }
